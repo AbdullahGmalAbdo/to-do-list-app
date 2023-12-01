@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>To-do-list</title>
+</head>
+<body>
+  <header>
+    <div>
+      <i class="fa-solid fa-list-check"></i>
+    </div>
+    <div>
+      <h1>To Do List</h1>
+    </div>
+  </header>
+  <main>
+    <input id="input" type="text">
+    <input id="input2" type="hidden">
+    <button id="btn1" onclick="Add()">Add To List</button>
+    <button id="btn2" onclick="update()" style="display: none;">Update in List</button>
+    <ul id="notess">
+    </ul>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

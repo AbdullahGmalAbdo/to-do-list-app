@@ -1,0 +1,157 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: cursive, sans-serif;
+  color: whitesmoke;
+}
+body {
+  background-image: linear-gradient(royalblue, rgb(16, 16, 168));
+  height: 1000px;
+}
+@keyframes hederAnmi {
+  0%,
+  100% {
+    letter-spacing: 3px;
+  }
+  50% {
+    letter-spacing: 0px;
+    opacity: 0.3;
+  }
+}
+@keyframes iconeAnmi {
+  0%,
+  100% {
+    letter-spacing: 3px;
+    box-shadow: 0 1px 6px 0 rgb(11, 11, 11);
+  }
+  50% {
+    letter-spacing: 0px;
+    opacity: 0.3;
+  }
+}
+
+header {
+  background-image: linear-gradient(royalblue, rgb(58, 58, 221));
+
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+  box-shadow: 0 1px 6px 0 rgb(249, 246, 246);
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+h1 {
+  animation: hederAnmi 3s infinite linear;
+}
+.fa-list-check {
+  padding-top: 11px;
+  font-size: 30px;
+  animation: iconeAnmi 3s infinite linear;
+  color: rgb(206, 184, 192);
+}
+main {
+  /* border: 2px solid red; */
+  width: 100%;
+  text-align: center;
+  height: 500px;
+}
+#input,li{
+  width: 350px;
+  margin: 100px 20px 0px 0px;
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 1px 6px 0 rgb(249, 246, 246);
+  font-size: 20px;
+}
+button {
+  border: 1px solid #0b12e6;
+  background: transparent;
+  font-size: 20px;
+  padding: 10px 20px;
+  box-shadow: 0 1px 6px 0 rgb(249, 246, 246);
+  letter-spacing: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  box-shadow: 0 1px 6px 0 rgb(210, 194, 194);
+  border: 1px solid #040cfc;
+  color: #37b9c6;
+}
+li{
+   margin:50px auto;
+   width:545px;
+   list-style: none;
+   text-align: start;
+   display: flex;
+   justify-content: space-between;
+   opacity: 0.8;
+}
+i{
+    cursor: pointer;
+}
+#star{
+    margin-right: 20px;
+}
+
+@media screen and (max-width:576px) {
+	#input,li{
+    width: 120px;
+    margin: 100px 20px;
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 1px 6px 0 rgb(249, 246, 246);
+    font-size: 18px;
+  }
+  button {
+    border: 1px solid #0b12e6;
+    background: transparent;
+    font-size: 18px;
+    padding: 8px 16px;
+    box-shadow: 0 1px 6px 0 rgb(249, 246, 246);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  header{
+    position: fixed;
+    width: 100%;
+  }
+  
+  li{
+    margin:20px auto;
+    width:300px;
+    list-style: none;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+ }
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+	/*code css here*/
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+	/*code css here*/
+}
+
+@media screen and (min-width:993px) and (max-width:1200px) {
+	/*code css here*/
+}
+
+/*if need more */
+@media screen and (min-width:1201px) and (max-width:1400px) {
+	/*code css here*/
+}
